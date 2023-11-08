@@ -1,0 +1,433 @@
+[INF] ==> [08/11/2023 00:23:50] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 00:23:50] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 00:23:50] Hosting environment: Development
+[INF] ==> [08/11/2023 00:23:50] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 00:23:55] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 00:23:55] Request => Method: GET, Path: /, Body: null
+[INF] ==> [08/11/2023 00:23:55] Token: null
+[INF] ==> [08/11/2023 00:24:09] Request => Method: POST, Path: /api/Account/InsertUser, Body: {"id":0,"createdAt":"2023-11-07T17:24:08.068Z","updatedAt":"2023-11-07T17:24:08.068Z","username":"string","password":"string","fullName":"string","email":"string","birthday":"2023-11-07T17:24:08.068Z","gender":0,"address":"string","avatar":"string","status":0}
+[INF] ==> [08/11/2023 00:24:09] Token: null
+[ERR] ==> [08/11/2023 00:24:10] Failed executing DbCommand (79ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [dbo].[User] ([Address], [Avatar], [Birthday], [CreatedAt], [Email], [FullName], [Gender], [Password], [Status], [UpdatedAt], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+[ERR] ==> [08/11/2023 00:24:10] An exception occurred in the database while saving changes for context type 'BackEnd.Context.EFContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:66d9aa54-9fb0-41d6-8879-4c4a4abe38e2
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:66d9aa54-9fb0-41d6-8879-4c4a4abe38e2
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[ERR] ==> [08/11/2023 00:24:10] Error: An error occurred while saving the entity changes. See the inner exception for details.
+StackTrace:    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BackEnd.Repositories.UserRepos.InsertUser(Users users) in D:\SelfTaught\TheBoringChat\BackEnd\Repositories\UserRepos.cs:line 8
+   at BackEnd.Controllers.AccountController.InsertUser(Users users) in D:\SelfTaught\TheBoringChat\BackEnd\Controllers\AccountController.cs:line 11
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at BackEnd.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\JwtMiddleware.cs:line 34
+   at BackEnd.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [08/11/2023 00:26:06] Application is shutting down...
+[INF] ==> [08/11/2023 00:26:10] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 00:26:10] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 00:26:10] Hosting environment: Development
+[INF] ==> [08/11/2023 00:26:10] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 00:26:13] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 00:26:13] Request => Method: POST, Path: /api/Account/InsertUser, Body: {"id":0,"createdAt":"2023-11-07T17:24:08.068Z","updatedAt":"2023-11-07T17:24:08.068Z","username":"string","password":"string","fullName":"string","email":"string","birthday":"2023-11-07T17:24:08.068Z","gender":0,"address":"string","avatar":"string","status":0}
+[INF] ==> [08/11/2023 00:26:13] Token: null
+[ERR] ==> [08/11/2023 00:26:14] Failed executing DbCommand (37ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [dbo].[User] ([Address], [Avatar], [Birthday], [CreatedAt], [Email], [FullName], [Gender], [Password], [Status], [UpdatedAt], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+[ERR] ==> [08/11/2023 00:26:14] An exception occurred in the database while saving changes for context type 'BackEnd.Context.EFContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:fdb4a7ec-1b64-4b1e-b8f8-b48f81327938
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:fdb4a7ec-1b64-4b1e-b8f8-b48f81327938
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[ERR] ==> [08/11/2023 00:26:14] Error: An error occurred while saving the entity changes. See the inner exception for details.
+Inner: Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.User'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:fdb4a7ec-1b64-4b1e-b8f8-b48f81327938
+Error Number:208,State:1,Class:16
+StackTrace:    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BackEnd.Repositories.UserRepos.InsertUser(Users users) in D:\SelfTaught\TheBoringChat\BackEnd\Repositories\UserRepos.cs:line 8
+   at BackEnd.Controllers.AccountController.InsertUser(Users users) in D:\SelfTaught\TheBoringChat\BackEnd\Controllers\AccountController.cs:line 11
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at BackEnd.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\JwtMiddleware.cs:line 34
+   at BackEnd.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [08/11/2023 00:26:58] Application is shutting down...
+[INF] ==> [08/11/2023 00:27:01] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 00:27:01] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 00:27:01] Hosting environment: Development
+[INF] ==> [08/11/2023 00:27:01] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 00:27:22] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 00:27:22] Request => Method: POST, Path: /api/Account/InsertUser, Body: {"id":0,"createdAt":"2023-11-07T17:24:08.068Z","updatedAt":"2023-11-07T17:24:08.068Z","username":"0974331603","password":"123456","fullName":"","email":"","birthday":"2023-11-07T17:24:08.068Z","gender":0,"address":"","avatar":"","status":0}
+[INF] ==> [08/11/2023 00:27:22] Token: null
+[INF] ==> [08/11/2023 00:27:29] Application is shutting down...
+[INF] ==> [08/11/2023 13:56:51] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 13:56:51] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 13:56:51] Hosting environment: Development
+[INF] ==> [08/11/2023 13:56:51] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 13:56:55] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 13:56:55] Request => Method: GET, Path: /, Body: null
+[INF] ==> [08/11/2023 13:56:55] Token: null
+[INF] ==> [08/11/2023 13:56:57] Request => Method: GET, Path: /favicon.ico, Body: null
+[INF] ==> [08/11/2023 13:56:57] Token: null
+[INF] ==> [08/11/2023 13:57:10] Application is shutting down...
+[INF] ==> [08/11/2023 13:57:24] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 13:57:24] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 13:57:24] Hosting environment: Development
+[INF] ==> [08/11/2023 13:57:24] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 13:57:49] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 13:57:49] Request => Method: POST, Path: /api/Auth/SignUp, Body: {"username":"0974331603","password":"123456","email":"abc","fullname":"Minh"}
+[INF] ==> [08/11/2023 13:57:49] Token: null
+[INF] ==> [08/11/2023 13:58:59] Application is shutting down...
+[INF] ==> [08/11/2023 13:59:34] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 13:59:34] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 13:59:34] Hosting environment: Development
+[INF] ==> [08/11/2023 13:59:34] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 13:59:44] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 13:59:44] Request => Method: POST, Path: /api/Auth/SignUp, Body: {"username":"123","password":"123456","email":"abc","fullname":"Minh"}
+[INF] ==> [08/11/2023 13:59:44] Token: null
+[INF] ==> [08/11/2023 13:59:50] Request => Method: POST, Path: /api/Auth/SignUp, Body: {"username":"0974","password":"123456","email":"abc","fullname":"Minh"}
+[INF] ==> [08/11/2023 13:59:50] Token: null
+[INF] ==> [08/11/2023 13:59:55] Request => Method: POST, Path: /api/Auth/SignUp, Body: {"username":"0974331603","password":"123456","email":"abc","fullname":"Minh"}
+[INF] ==> [08/11/2023 13:59:55] Token: null
+[INF] ==> [08/11/2023 14:00:15] Request => Method: POST, Path: /api/Auth/SignUp, Body: {"username":"0974331603","password":"123456","email":"nickcuaducminh@gmail.com","fullname":"Minh"}
+[INF] ==> [08/11/2023 14:00:15] Token: null
+[INF] ==> [08/11/2023 14:01:54] Request => Method: POST, Path: /api/Auth/SignUp, Body: {"username":"0974331603","password":"123456","email":"nickcuaducminh@gmail.com","fullname":"Minh"}
+[INF] ==> [08/11/2023 14:01:54] Token: null
+[ERR] ==> [08/11/2023 14:01:55] An exception occurred in the database while saving changes for context type 'BackEnd.Context.EFContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The conversion of a datetime2 data type to a datetime data type resulted in an out-of-range value.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e256f5bb-b1c3-4856-8988-1d0cd4c6aed3
+Error Number:242,State:3,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The conversion of a datetime2 data type to a datetime data type resulted in an out-of-range value.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e256f5bb-b1c3-4856-8988-1d0cd4c6aed3
+Error Number:242,State:3,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[ERR] ==> [08/11/2023 14:01:55] Error: An error occurred while saving the entity changes. See the inner exception for details.
+Inner: Microsoft.Data.SqlClient.SqlException (0x80131904): The conversion of a datetime2 data type to a datetime data type resulted in an out-of-range value.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e256f5bb-b1c3-4856-8988-1d0cd4c6aed3
+Error Number:242,State:3,Class:16
+StackTrace:    at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BackEnd.Repositories.UserRepos.InsertUser(Users users) in D:\SelfTaught\TheBoringChat\BackEnd\Repositories\UserRepos.cs:line 14
+   at BackEnd.Controllers.Auth.SignUp(SignUpRequest request) in D:\SelfTaught\TheBoringChat\BackEnd\Controllers\AuthController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at BackEnd.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\JwtMiddleware.cs:line 34
+   at BackEnd.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [08/11/2023 14:03:42] Application is shutting down...
+[INF] ==> [08/11/2023 14:03:46] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 14:03:46] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 14:03:46] Hosting environment: Development
+[INF] ==> [08/11/2023 14:03:46] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 14:03:49] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 14:03:49] Request => Method: POST, Path: /api/Auth/SignUp, Body: {"username":"0974331603","password":"123456","email":"nickcuaducminh@gmail.com","fullname":"Minh"}
+[INF] ==> [08/11/2023 14:03:49] Token: null
+[INF] ==> [08/11/2023 14:12:51] Application is shutting down...
+[INF] ==> [08/11/2023 14:12:55] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 14:12:55] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 14:12:55] Hosting environment: Development
+[INF] ==> [08/11/2023 14:12:55] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 14:13:26] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 14:13:26] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331603","password":"123456"}
+[INF] ==> [08/11/2023 14:13:26] Token: null
+[INF] ==> [08/11/2023 14:19:08] Application is shutting down...
+[INF] ==> [08/11/2023 14:19:12] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 14:19:12] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 14:19:12] Hosting environment: Development
+[INF] ==> [08/11/2023 14:19:12] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 14:19:21] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 14:19:21] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331604","password":"123456"}
+[INF] ==> [08/11/2023 14:19:21] Token: null
+[INF] ==> [08/11/2023 14:19:31] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331603","password":"1234561"}
+[INF] ==> [08/11/2023 14:19:31] Token: null
+[INF] ==> [08/11/2023 14:19:35] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331603","password":"123456"}
+[INF] ==> [08/11/2023 14:19:36] Token: null
+[INF] ==> [08/11/2023 14:22:30] Application is shutting down...
+[INF] ==> [08/11/2023 14:22:35] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 14:22:35] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 14:22:35] Hosting environment: Development
+[INF] ==> [08/11/2023 14:22:35] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 14:22:46] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 14:22:46] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [08/11/2023 14:22:46] Token: null
+[INF] ==> [08/11/2023 14:22:52] Application is shutting down...
+[INF] ==> [08/11/2023 14:28:10] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 14:28:10] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 14:28:10] Hosting environment: Development
+[INF] ==> [08/11/2023 14:28:10] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[INF] ==> [08/11/2023 14:28:18] Application is shutting down...
+[INF] ==> [08/11/2023 14:28:48] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 14:28:48] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 14:28:49] Hosting environment: Development
+[INF] ==> [08/11/2023 14:28:49] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 14:28:52] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 14:29:04] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331603","password":"123456"}
+[INF] ==> [08/11/2023 14:29:04] Token: null
+[INF] ==> [08/11/2023 14:29:15] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [08/11/2023 14:29:15] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiIzIiwibmJmIjoxNjk5NDI4NTQ2LCJleHAiOjE2OTk0MzIxNDYsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.KNHO8nwt2h-nYKuH_5w2Y2ZvvkOJDXyv02C-TUj08te5Ww5BQgd01D4oc3Pf316Iwsp8fJPifkEFqqOA48S5AQ
+[INF] ==> [08/11/2023 14:29:49] Application is shutting down...
+[INF] ==> [08/11/2023 14:29:53] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 14:29:53] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 14:29:53] Hosting environment: Development
+[INF] ==> [08/11/2023 14:29:53] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 14:29:56] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 14:29:56] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [08/11/2023 14:29:56] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiIzIiwibmJmIjoxNjk5NDI4NTQ2LCJleHAiOjE2OTk0MzIxNDYsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.KNHO8nwt2h-nYKuH_5w2Y2ZvvkOJDXyv02C-TUj08te5Ww5BQgd01D4oc3Pf316Iwsp8fJPifkEFqqOA48S5AQ
+[INF] ==> [08/11/2023 14:29:59] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [08/11/2023 14:29:59] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiIzIiwibmJmIjoxNjk5NDI4NTQ2LCJleHAiOjE2OTk0MzIxNDYsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.KNHO8nwt2h-nYKuH_5w2Y2ZvvkOJDXyv02C-TUj08te5Ww5BQgd01D4oc3Pf316Iwsp8fJPifkEFqqOA48S5AQ
+[INF] ==> [08/11/2023 14:30:02] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [08/11/2023 14:30:02] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiIzIiwibmJmIjoxNjk5NDI4NTQ2LCJleHAiOjE2OTk0MzIxNDYsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.KNHO8nwt2h-nYKuH_5w2Y2ZvvkOJDXyv02C-TUj08te5Ww5BQgd01D4oc3Pf316Iwsp8fJPifkEFqqOA48S5AQ
+[INF] ==> [08/11/2023 14:32:54] Application is shutting down...
+[INF] ==> [08/11/2023 14:32:57] Now listening on: http://localhost:5276
+[INF] ==> [08/11/2023 14:32:57] Application started. Press Ctrl+C to shut down.
+[INF] ==> [08/11/2023 14:32:57] Hosting environment: Development
+[INF] ==> [08/11/2023 14:32:57] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [08/11/2023 14:33:00] Failed to determine the https port for redirect.
+[INF] ==> [08/11/2023 14:33:00] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [08/11/2023 14:33:00] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiIzIiwibmJmIjoxNjk5NDI4NTQ2LCJleHAiOjE2OTk0MzIxNDYsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.KNHO8nwt2h-nYKuH_5w2Y2ZvvkOJDXyv02C-TUj08te5Ww5BQgd01D4oc3Pf316Iwsp8fJPifkEFqqOA48S5AQ
+[INF] ==> [08/11/2023 14:33:17] Application is shutting down...
