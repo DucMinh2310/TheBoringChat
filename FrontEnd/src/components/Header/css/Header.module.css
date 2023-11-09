@@ -1,0 +1,24 @@
+.header-box-chart {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.btn-avatar {
+  height: 50px !important;
+  border: 0;
+  display: flex;
+}
+
+.btn-avatar div {
+  margin-left: 10px;
+}
+
+.btn-avatar div p {
+  margin: 0;
+}
+
+.time-active {
+  font-size: 11px;
+  color: #aaa;
+}

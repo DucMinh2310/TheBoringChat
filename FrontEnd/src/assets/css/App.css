@@ -1,0 +1,14 @@
+/**
+font-family: 'Raleway', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap");
+
+.App {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+/*************************************/
+.mg-3 {
+  margin: 3px !important;
+}
