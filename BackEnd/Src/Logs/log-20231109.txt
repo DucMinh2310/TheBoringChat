@@ -1,0 +1,132 @@
+[INF] ==> [09/11/2023 23:39:00] Now listening on: http://localhost:5276
+[INF] ==> [09/11/2023 23:39:00] Application started. Press Ctrl+C to shut down.
+[INF] ==> [09/11/2023 23:39:00] Hosting environment: Development
+[INF] ==> [09/11/2023 23:39:00] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [09/11/2023 23:39:02] Failed to determine the https port for redirect.
+[INF] ==> [09/11/2023 23:39:02] Request => Method: GET, Path: /, Body: null
+[INF] ==> [09/11/2023 23:39:02] Token: null
+[INF] ==> [09/11/2023 23:39:03] Request => Method: GET, Path: /favicon.ico, Body: null
+[INF] ==> [09/11/2023 23:39:03] Token: null
+[INF] ==> [09/11/2023 23:39:22] Request => Method: POST, Path: /api/Auth/SendOTP, Body: {"email":"nickcuaducminh@gmail.com"}
+[INF] ==> [09/11/2023 23:39:22] Token: null
+[ERR] ==> [09/11/2023 23:39:23] Error: Unable to resolve service for type 'MinhLD_OTP.OTPHandler' while attempting to activate 'TheBoringChat.Controllers.Auth'.
+Inner: 
+StackTrace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [09/11/2023 23:40:06] Application is shutting down...
+[INF] ==> [09/11/2023 23:41:50] Now listening on: http://localhost:5276
+[INF] ==> [09/11/2023 23:41:50] Application started. Press Ctrl+C to shut down.
+[INF] ==> [09/11/2023 23:41:50] Hosting environment: Development
+[INF] ==> [09/11/2023 23:41:50] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [09/11/2023 23:41:53] Failed to determine the https port for redirect.
+[INF] ==> [09/11/2023 23:41:53] Request => Method: POST, Path: /api/Auth/SendOTP, Body: {"email":"nickcuaducminh@gmail.com"}
+[INF] ==> [09/11/2023 23:41:53] Token: null
+[ERR] ==> [09/11/2023 23:41:53] Error: Unable to resolve service for type 'MinhLD_OTP.OTPHandler' while attempting to activate 'TheBoringChat.Controllers.Auth'.
+Inner: 
+StackTrace:    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [09/11/2023 23:42:02] Application is shutting down...
+[INF] ==> [09/11/2023 23:42:06] Now listening on: http://localhost:5276
+[INF] ==> [09/11/2023 23:42:06] Application started. Press Ctrl+C to shut down.
+[INF] ==> [09/11/2023 23:42:06] Hosting environment: Development
+[INF] ==> [09/11/2023 23:42:06] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [09/11/2023 23:42:07] Failed to determine the https port for redirect.
+[INF] ==> [09/11/2023 23:42:07] Request => Method: POST, Path: /api/Auth/SendOTP, Body: {"email":"nickcuaducminh@gmail.com"}
+[INF] ==> [09/11/2023 23:42:07] Token: null
+[ERR] ==> [09/11/2023 23:42:09] Error: Arithmetic operation resulted in an overflow.
+Inner: 
+StackTrace:    at System.Convert.ToInt64(Double value)
+   at MinhLD_OTP.OTPHandler.ComputeHOTPValue(DateTime utcDateTime) in D:\SelfTaught\TheBoringChat\MinhLD_OTP\OTPHandler.cs:line 75
+   at MinhLD_OTP.OTPHandler.GenerateOTP(String userId, Nullable`1 utcDateTime) in D:\SelfTaught\TheBoringChat\MinhLD_OTP\OTPHandler.cs:line 32
+   at TheBoringChat.Controllers.Auth.SendOTP(SendOTPRequest request) in D:\SelfTaught\TheBoringChat\BackEnd\Controllers\AuthController.cs:line 89
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [09/11/2023 23:43:16] Application is shutting down...
+[INF] ==> [09/11/2023 23:44:49] Now listening on: http://localhost:5276
+[INF] ==> [09/11/2023 23:44:49] Application started. Press Ctrl+C to shut down.
+[INF] ==> [09/11/2023 23:44:49] Hosting environment: Development
+[INF] ==> [09/11/2023 23:44:49] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[INF] ==> [09/11/2023 23:44:56] Application is shutting down...
+[INF] ==> [09/11/2023 23:45:01] Now listening on: http://localhost:5276
+[INF] ==> [09/11/2023 23:45:01] Application started. Press Ctrl+C to shut down.
+[INF] ==> [09/11/2023 23:45:01] Hosting environment: Development
+[INF] ==> [09/11/2023 23:45:01] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [09/11/2023 23:45:03] Failed to determine the https port for redirect.
+[INF] ==> [09/11/2023 23:45:03] Request => Method: POST, Path: /api/Auth/SendOTP, Body: {"email":"nickcuaducminh@gmail.com"}
+[INF] ==> [09/11/2023 23:45:03] Token: null
+[INF] ==> [09/11/2023 23:45:05] {"TimeStep":0,"Tolerance":0,"DigitLength":0}
+[ERR] ==> [09/11/2023 23:45:05] Error: Arithmetic operation resulted in an overflow.
+Inner: 
+StackTrace:    at System.Convert.ToInt64(Double value)
+   at MinhLD_OTP.OTPHandler.ComputeHOTPValue(DateTime utcDateTime) in D:\SelfTaught\TheBoringChat\MinhLD_OTP\OTPHandler.cs:line 82
+   at MinhLD_OTP.OTPHandler.GenerateOTP(String userId, Nullable`1 utcDateTime) in D:\SelfTaught\TheBoringChat\MinhLD_OTP\OTPHandler.cs:line 38
+   at TheBoringChat.Controllers.Auth.SendOTP(SendOTPRequest request) in D:\SelfTaught\TheBoringChat\BackEnd\Controllers\AuthController.cs:line 89
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [09/11/2023 23:47:15] Application is shutting down...
+[INF] ==> [09/11/2023 23:47:22] Now listening on: http://localhost:5276
+[INF] ==> [09/11/2023 23:47:22] Application started. Press Ctrl+C to shut down.
+[INF] ==> [09/11/2023 23:47:22] Hosting environment: Development
+[INF] ==> [09/11/2023 23:47:22] Content root path: D:\SelfTaught\TheBoringChat\BackEnd
+[WRN] ==> [09/11/2023 23:47:29] Failed to determine the https port for redirect.
+[INF] ==> [09/11/2023 23:47:29] Request => Method: POST, Path: /api/Auth/SendOTP, Body: {"email":"nickcuaducminh@gmail.com"}
+[INF] ==> [09/11/2023 23:47:29] Token: null
+[INF] ==> [09/11/2023 23:47:30] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [09/11/2023 23:47:30] Confirmation email sent with message: {"from":{"displayName":"","user":"piacommobileapp","host":"gmail.com","address":"piacommobileapp@gmail.com"},"sender":null,"replyTo":null,"replyToList":[],"to":[{"displayName":"","user":"nickcuaducminh","host":"gmail.com","address":"nickcuaducminh@gmail.com"}],"bcc":[],"cc":[],"priority":0,"deliveryNotificationOptions":0,"subject":"Gửi từ TheBoringChat","subjectEncoding":{"bodyName":"utf-8","encodingName":"Unicode (UTF-8)","headerName":"utf-8","webName":"utf-8","windowsCodePage":1200,"isBrowserDisplay":true,"isBrowserSave":true,"isMailNewsDisplay":true,"isMailNewsSave":true,"isSingleByte":false,"encoderFallback":{"defaultString":"�","maxCharCount":1},"decoderFallback":{"defaultString":"�","maxCharCount":1},"isReadOnly":true,"codePage":65001},"headers":[],"headersEncoding":null,"body":"208859","bodyEncoding":{"isSingleByte":true,"bodyName":"us-ascii","encodingName":"US-ASCII","headerName":"us-ascii","webName":"us-ascii","windowsCodePage":1252,"isBrowserDisplay":false,"isBrowserSave":false,"isMailNewsDisplay":true,"isMailNewsSave":true,"encoderFallback":{"defaultString":"?","maxCharCount":1},"decoderFallback":{"defaultString":"?","maxCharCount":1},"isReadOnly":true,"codePage":20127},"bodyTransferEncoding":-1,"isBodyHtml":false,"attachments":[],"alternateViews":[]}
+[ERR] ==> [09/11/2023 23:47:30] Error: The server returned an invalid response to the EHLO command.
+Inner: 
+StackTrace:    at System.Net.Mail.EHelloCommand.CheckResponse(LineInfo[] lines)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at TheBoringChat.Services.MailService.Handle(EmailSetting request, CancellationToken cancellationToken) in D:\SelfTaught\TheBoringChat\BackEnd\Services\MailService.cs:line 52
+   at MediatR.NotificationPublishers.ForeachAwaitPublisher.Publish(IEnumerable`1 handlerExecutors, INotification notification, CancellationToken cancellationToken)
+   at TheBoringChat.Controllers.Auth.SendOTP(SendOTPRequest request) in D:\SelfTaught\TheBoringChat\BackEnd\Controllers\AuthController.cs:line 90
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
