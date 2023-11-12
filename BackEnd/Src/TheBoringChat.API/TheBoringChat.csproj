@@ -23,6 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BuildingBlocks\MinhLD_OTP\MinhLD_OTP.csproj" />
+    <ProjectReference Include="..\TheBoringChat.OTP\TheBoringChat.OTP.csproj" />
   </ItemGroup>
 </Project>
