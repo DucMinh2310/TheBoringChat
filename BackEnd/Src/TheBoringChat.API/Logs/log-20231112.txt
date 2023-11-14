@@ -1,0 +1,322 @@
+[INF] ==> [12/11/2023 10:56:21] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 10:56:21] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 10:56:21] Hosting environment: Development
+[INF] ==> [12/11/2023 10:56:21] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 10:57:27] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 10:57:27] Request => Method: GET, Path: /, Body: null
+[INF] ==> [12/11/2023 10:57:27] Token: null
+[INF] ==> [12/11/2023 10:57:29] Request => Method: GET, Path: /favicon.ico, Body: null
+[INF] ==> [12/11/2023 10:57:29] Token: null
+[INF] ==> [12/11/2023 11:06:31] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331603","password":"1234567"}
+[INF] ==> [12/11/2023 11:06:31] Token: null
+[INF] ==> [12/11/2023 11:06:47] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [12/11/2023 11:06:47] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzYxOTk0LCJleHAiOjE2OTk3NjU1OTQsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.IbeRcdse3oLAUvYq-9HTgSIdQBxt7Rj6VlkZLHUTr2k4F_JU7pseXWAHHWo_HaogmEyvjKzYEfR4m5I0SUTqqw
+[INF] ==> [12/11/2023 11:09:20] Application is shutting down...
+[INF] ==> [12/11/2023 11:09:27] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 11:09:27] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 11:09:27] Hosting environment: Development
+[INF] ==> [12/11/2023 11:09:27] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 11:09:32] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 11:09:32] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [12/11/2023 11:09:32] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzYxOTk0LCJleHAiOjE2OTk3NjU1OTQsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.IbeRcdse3oLAUvYq-9HTgSIdQBxt7Rj6VlkZLHUTr2k4F_JU7pseXWAHHWo_HaogmEyvjKzYEfR4m5I0SUTqqw
+[INF] ==> [12/11/2023 11:10:47] Request => Method: PUT, Path: /api/Account/UpdateUser, Body: {"id":4,"username":"string","password":"string","passwordUpdated":"string","fullName":"Đức Minh","email":"nickcuaducminh@gmail.com","birthday":"2023-11-12T04:10:06.419Z","gender":0,"address":"string","avatar":"string"}
+[INF] ==> [12/11/2023 11:10:47] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzYxOTk0LCJleHAiOjE2OTk3NjU1OTQsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.IbeRcdse3oLAUvYq-9HTgSIdQBxt7Rj6VlkZLHUTr2k4F_JU7pseXWAHHWo_HaogmEyvjKzYEfR4m5I0SUTqqw
+[INF] ==> [12/11/2023 11:10:51] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [12/11/2023 11:10:51] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzYxOTk0LCJleHAiOjE2OTk3NjU1OTQsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.IbeRcdse3oLAUvYq-9HTgSIdQBxt7Rj6VlkZLHUTr2k4F_JU7pseXWAHHWo_HaogmEyvjKzYEfR4m5I0SUTqqw
+[INF] ==> [12/11/2023 11:16:42] Application is shutting down...
+[INF] ==> [12/11/2023 11:16:47] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 11:16:47] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 11:16:47] Hosting environment: Development
+[INF] ==> [12/11/2023 11:16:47] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[INF] ==> [12/11/2023 11:17:37] Application is shutting down...
+[INF] ==> [12/11/2023 12:38:11] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:38:11] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:38:11] Hosting environment: Development
+[INF] ==> [12/11/2023 12:38:11] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:39:49] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:39:49] Request => Method: POST, Path: /api/Auth/SendOTP, Body: {"email":"nickcuaducminh@gmail.com"}
+[INF] ==> [12/11/2023 12:39:49] Token: null
+[INF] ==> [12/11/2023 12:39:51] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:39:51] Confirmation email sent with message: {"from":{"displayName":"","user":"piacommobileapp","host":"gmail.com","address":"piacommobileapp@gmail.com"},"sender":null,"replyTo":null,"replyToList":[],"to":[{"displayName":"","user":"nickcuaducminh","host":"gmail.com","address":"nickcuaducminh@gmail.com"}],"bcc":[],"cc":[],"priority":0,"deliveryNotificationOptions":0,"subject":"Gửi từ TheBoringChat","subjectEncoding":{"bodyName":"utf-8","encodingName":"Unicode (UTF-8)","headerName":"utf-8","webName":"utf-8","windowsCodePage":1200,"isBrowserDisplay":true,"isBrowserSave":true,"isMailNewsDisplay":true,"isMailNewsSave":true,"isSingleByte":false,"encoderFallback":{"defaultString":"�","maxCharCount":1},"decoderFallback":{"defaultString":"�","maxCharCount":1},"isReadOnly":true,"codePage":65001},"headers":[],"headersEncoding":null,"body":"640238","bodyEncoding":{"isSingleByte":true,"bodyName":"us-ascii","encodingName":"US-ASCII","headerName":"us-ascii","webName":"us-ascii","windowsCodePage":1252,"isBrowserDisplay":false,"isBrowserSave":false,"isMailNewsDisplay":true,"isMailNewsSave":true,"encoderFallback":{"defaultString":"?","maxCharCount":1},"decoderFallback":{"defaultString":"?","maxCharCount":1},"isReadOnly":true,"codePage":20127},"bodyTransferEncoding":-1,"isBodyHtml":false,"attachments":[],"alternateViews":[]}
+[INF] ==> [12/11/2023 12:40:13] Request => Method: POST, Path: /api/Auth/ForgotPassword, Body: {"username":"0974331603","newPw":"123456","otp":"640238"}
+[INF] ==> [12/11/2023 12:40:13] Token: null
+[INF] ==> [12/11/2023 12:40:13] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:40:32] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331603","password":"123456"}
+[INF] ==> [12/11/2023 12:40:32] Token: null
+[ERR] ==> [12/11/2023 12:40:32] Error: Invalid salt version
+Inner: 
+StackTrace:    at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at TheBoringChat.Controllers.Auth.SignIn(SignInRequest request) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Controllers\AuthController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [12/11/2023 12:41:06] Application is shutting down...
+[INF] ==> [12/11/2023 12:42:23] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:42:23] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:42:23] Hosting environment: Development
+[INF] ==> [12/11/2023 12:42:23] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:42:25] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:42:25] Request => Method: POST, Path: /api/Auth/ForgotPassword, Body: {"username":"0974331603","newPw":"123456","otp":"640238"}
+[INF] ==> [12/11/2023 12:42:25] Token: null
+[INF] ==> [12/11/2023 12:42:26] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:42:26] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:42:34] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331603","password":"123456"}
+[INF] ==> [12/11/2023 12:42:34] Token: null
+[INF] ==> [12/11/2023 12:43:31] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"1234567","newPw":"123456"}
+[INF] ==> [12/11/2023 12:43:31] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:43:40] Application is shutting down...
+[INF] ==> [12/11/2023 12:44:07] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:44:07] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:44:07] Hosting environment: Development
+[INF] ==> [12/11/2023 12:44:07] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:44:09] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:44:09] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"1234567","newPw":"123456"}
+[INF] ==> [12/11/2023 12:44:09] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:44:42] Application is shutting down...
+[INF] ==> [12/11/2023 12:44:46] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:44:46] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:44:46] Hosting environment: Development
+[INF] ==> [12/11/2023 12:44:46] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:44:46] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:44:46] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"1234567","newPw":"123456"}
+[INF] ==> [12/11/2023 12:44:46] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:45:06] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"1234567","newPw":"123456"}
+[INF] ==> [12/11/2023 12:45:06] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:45:15] Application is shutting down...
+[INF] ==> [12/11/2023 12:45:31] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:45:31] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:45:31] Hosting environment: Development
+[INF] ==> [12/11/2023 12:45:31] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:45:32] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:45:32] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"1234567","newPw":"123456"}
+[INF] ==> [12/11/2023 12:45:32] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:45:44] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123456","newPw":"123456"}
+[INF] ==> [12/11/2023 12:45:44] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:45:50] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123456","newPw":"1234567"}
+[INF] ==> [12/11/2023 12:45:50] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:46:08] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123456","newPw":"1234567"}
+[INF] ==> [12/11/2023 12:46:08] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:46:28] Application is shutting down...
+[INF] ==> [12/11/2023 12:53:16] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:53:16] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:53:16] Hosting environment: Development
+[INF] ==> [12/11/2023 12:53:16] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:53:21] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:53:21] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123456","newPw":"1234567"}
+[INF] ==> [12/11/2023 12:53:21] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:53:36] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123457","newPw":"123456"}
+[INF] ==> [12/11/2023 12:53:36] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[ERR] ==> [12/11/2023 12:53:36] Error: Invalid salt version
+Inner: 
+StackTrace:    at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at TheBoringChat.Repositories.UserRepos.GetByLogin(String username, String password) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Repositories\UserRepos.cs:line 10
+   at TheBoringChat.Repositories.UserRepos.UpdateUser(UpdateUserDto request, Int32 type) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Repositories\UserRepos.cs:line 36
+   at TheBoringChat.Controllers.AccountController.ChangePassword(ChangePasswordRequest request) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Controllers\AccountController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [12/11/2023 12:55:35] Application is shutting down...
+[INF] ==> [12/11/2023 12:55:40] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:55:40] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:55:40] Hosting environment: Development
+[INF] ==> [12/11/2023 12:55:40] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:55:53] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:55:53] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123457","newPw":"123456"}
+[INF] ==> [12/11/2023 12:55:53] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[ERR] ==> [12/11/2023 12:55:54] Error: Invalid salt version
+Inner: 
+StackTrace:    at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at TheBoringChat.Repositories.UserRepos.GetByLogin(String username, String password) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Repositories\UserRepos.cs:line 10
+   at TheBoringChat.Repositories.UserRepos.UpdateUser(UpdateUserDto request, Int32 type) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Repositories\UserRepos.cs:line 36
+   at TheBoringChat.Controllers.AccountController.ChangePassword(ChangePasswordRequest request) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Controllers\AccountController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [12/11/2023 12:56:01] Application is shutting down...
+[INF] ==> [12/11/2023 12:56:05] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:56:05] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:56:05] Hosting environment: Development
+[INF] ==> [12/11/2023 12:56:05] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:56:12] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:56:12] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123457","newPw":"123456"}
+[INF] ==> [12/11/2023 12:56:12] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[ERR] ==> [12/11/2023 12:56:13] Error: Invalid salt version
+Inner: 
+StackTrace:    at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at TheBoringChat.Repositories.UserRepos.GetByLogin(String username, String password) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Repositories\UserRepos.cs:line 10
+   at TheBoringChat.Repositories.UserRepos.UpdateUser(UpdateUserDto request, Int32 type) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Repositories\UserRepos.cs:line 36
+   at TheBoringChat.Controllers.AccountController.ChangePassword(ChangePasswordRequest request) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Controllers\AccountController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in D:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [12/11/2023 12:58:05] Application is shutting down...
+[INF] ==> [12/11/2023 12:58:18] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:58:18] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:58:18] Hosting environment: Development
+[INF] ==> [12/11/2023 12:58:18] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:58:19] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:58:19] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123457","newPw":"123456"}
+[INF] ==> [12/11/2023 12:58:19] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[ERR] ==> [12/11/2023 12:58:47] Error: Invalid salt version
+Inner: 
+StackTrace:    at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at TheBoringChat.Repositories.UserRepos.GetByLogin(String username, String password) in d:\SelfTaught\TheBoringChat\BackEnd\Src\Repositories\UserRepos.cs:line 10
+   at TheBoringChat.Repositories.UserRepos.UpdateUser(UpdateUserDto request, Int32 type) in d:\SelfTaught\TheBoringChat\BackEnd\Src\Repositories\UserRepos.cs:line 36
+   at TheBoringChat.Controllers.AccountController.ChangePassword(ChangePasswordRequest request) in d:\SelfTaught\TheBoringChat\BackEnd\Src\Controllers\AccountController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at TheBoringChat.Middlewares.JwtMiddleware.Invoke(HttpContext context) in d:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\JwtMiddleware.cs:line 34
+   at TheBoringChat.Middlewares.GlobalInternalServerExceptionMiddleware.InvokeAsync(HttpContext context) in d:\SelfTaught\TheBoringChat\BackEnd\Src\Middlewares\GlobalInternalServerExceptionMiddleware.cs:line 11
+[INF] ==> [12/11/2023 12:59:13] Request => Method: POST, Path: /api/Auth/ForgotPassword, Body: {"username":"0974331603","newPw":"123456","otp":"640238"}
+[INF] ==> [12/11/2023 12:59:13] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:59:13] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:59:13] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:59:13] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:59:19] Request => Method: POST, Path: /api/Auth/SendOTP, Body: {"email":"nickcuaducminh@gmail.com"}
+[INF] ==> [12/11/2023 12:59:19] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:59:19] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:59:30] Confirmation email sent with message: {"from":{"displayName":"","user":"piacommobileapp","host":"gmail.com","address":"piacommobileapp@gmail.com"},"sender":null,"replyTo":null,"replyToList":[],"to":[{"displayName":"","user":"nickcuaducminh","host":"gmail.com","address":"nickcuaducminh@gmail.com"}],"bcc":[],"cc":[],"priority":0,"deliveryNotificationOptions":0,"subject":"Gửi từ TheBoringChat","subjectEncoding":{"bodyName":"utf-8","encodingName":"Unicode (UTF-8)","headerName":"utf-8","webName":"utf-8","windowsCodePage":1200,"isBrowserDisplay":true,"isBrowserSave":true,"isMailNewsDisplay":true,"isMailNewsSave":true,"isSingleByte":false,"encoderFallback":{"defaultString":"�","maxCharCount":1},"decoderFallback":{"defaultString":"�","maxCharCount":1},"isReadOnly":true,"codePage":65001},"headers":[],"headersEncoding":null,"body":"654696","bodyEncoding":{"isSingleByte":true,"bodyName":"us-ascii","encodingName":"US-ASCII","headerName":"us-ascii","webName":"us-ascii","windowsCodePage":1252,"isBrowserDisplay":false,"isBrowserSave":false,"isMailNewsDisplay":true,"isMailNewsSave":true,"encoderFallback":{"defaultString":"?","maxCharCount":1},"decoderFallback":{"defaultString":"?","maxCharCount":1},"isReadOnly":true,"codePage":20127},"bodyTransferEncoding":-1,"isBodyHtml":false,"attachments":[],"alternateViews":[]}
+[INF] ==> [12/11/2023 12:59:41] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 12:59:41] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 12:59:41] Hosting environment: Development
+[INF] ==> [12/11/2023 12:59:41] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 12:59:47] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 12:59:48] Request => Method: POST, Path: /api/Auth/SendOTP, Body: {"email":"nickcuaducminh@gmail.com"}
+[INF] ==> [12/11/2023 12:59:48] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 12:59:49] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 12:59:49] Confirmation email sent with message: {"from":{"displayName":"","user":"piacommobileapp","host":"gmail.com","address":"piacommobileapp@gmail.com"},"sender":null,"replyTo":null,"replyToList":[],"to":[{"displayName":"","user":"nickcuaducminh","host":"gmail.com","address":"nickcuaducminh@gmail.com"}],"bcc":[],"cc":[],"priority":0,"deliveryNotificationOptions":0,"subject":"Gửi từ TheBoringChat","subjectEncoding":{"bodyName":"utf-8","encodingName":"Unicode (UTF-8)","headerName":"utf-8","webName":"utf-8","windowsCodePage":1200,"isBrowserDisplay":true,"isBrowserSave":true,"isMailNewsDisplay":true,"isMailNewsSave":true,"isSingleByte":false,"encoderFallback":{"defaultString":"�","maxCharCount":1},"decoderFallback":{"defaultString":"�","maxCharCount":1},"isReadOnly":true,"codePage":65001},"headers":[],"headersEncoding":null,"body":"654696","bodyEncoding":{"isSingleByte":true,"bodyName":"us-ascii","encodingName":"US-ASCII","headerName":"us-ascii","webName":"us-ascii","windowsCodePage":1252,"isBrowserDisplay":false,"isBrowserSave":false,"isMailNewsDisplay":true,"isMailNewsSave":true,"encoderFallback":{"defaultString":"?","maxCharCount":1},"decoderFallback":{"defaultString":"?","maxCharCount":1},"isReadOnly":true,"codePage":20127},"bodyTransferEncoding":-1,"isBodyHtml":false,"attachments":[],"alternateViews":[]}
+[INF] ==> [12/11/2023 13:00:15] Request => Method: POST, Path: /api/Auth/ForgotPassword, Body: {"username":"0974331603","newPw":"123456","otp":"654696"}
+[INF] ==> [12/11/2023 13:00:15] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 13:00:15] {"TimeStep":180,"Tolerance":3,"DigitLength":6}
+[INF] ==> [12/11/2023 13:00:28] Request => Method: POST, Path: /api/Auth/SignIn, Body: {"username":"0974331603","password":"123456"}
+[INF] ==> [12/11/2023 13:00:28] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 13:00:38] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123546","newPw":"123456"}
+[INF] ==> [12/11/2023 13:00:38] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 13:00:44] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123546","newPw":"123457"}
+[INF] ==> [12/11/2023 13:00:44] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 13:00:46] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123546","newPw":"123457"}
+[INF] ==> [12/11/2023 13:00:46] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY3NzU1LCJleHAiOjE2OTk3NzEzNTUsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.ADJJB2DI3yI46BxC73_nJ8uZh6ZAh0K6zHM4YhYOX1JuDObWV19dbCuQ753CkxQWLdTrrF5xg2EtGwZCaX7Qqg
+[INF] ==> [12/11/2023 13:01:51] Application is shutting down...
+[INF] ==> [12/11/2023 13:01:55] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 13:01:55] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 13:01:55] Hosting environment: Development
+[INF] ==> [12/11/2023 13:01:55] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 13:02:09] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 13:02:09] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123546","newPw":"123457"}
+[INF] ==> [12/11/2023 13:02:09] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:02:10] False
+[INF] ==> [12/11/2023 13:02:47] Application is shutting down...
+[INF] ==> [12/11/2023 13:02:51] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 13:02:51] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 13:02:51] Hosting environment: Development
+[INF] ==> [12/11/2023 13:02:51] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 13:02:52] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 13:02:52] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123546","newPw":"123457"}
+[INF] ==> [12/11/2023 13:02:52] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:02:53] 123546
+[FTL] ==> [12/11/2023 13:02:53] 0974331603
+[FTL] ==> [12/11/2023 13:02:53] False
+[INF] ==> [12/11/2023 13:03:13] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123456","newPw":"123456"}
+[INF] ==> [12/11/2023 13:03:13] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:03:13] 123456
+[FTL] ==> [12/11/2023 13:03:13] 0974331603
+[FTL] ==> [12/11/2023 13:03:14] True
+[INF] ==> [12/11/2023 13:03:19] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123456","newPw":"1234567"}
+[INF] ==> [12/11/2023 13:03:19] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:03:19] 123456
+[FTL] ==> [12/11/2023 13:03:19] 0974331603
+[FTL] ==> [12/11/2023 13:03:19] True
+[INF] ==> [12/11/2023 13:03:23] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"123456","newPw":"1234567"}
+[INF] ==> [12/11/2023 13:03:23] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:03:23] 123456
+[FTL] ==> [12/11/2023 13:03:23] 0974331603
+[FTL] ==> [12/11/2023 13:03:23] False
+[INF] ==> [12/11/2023 13:03:28] Request => Method: PUT, Path: /api/Account/ChangePassword, Body: {"oldPw":"1234567","newPw":"123456"}
+[INF] ==> [12/11/2023 13:03:28] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:03:29] 1234567
+[FTL] ==> [12/11/2023 13:03:29] 0974331603
+[FTL] ==> [12/11/2023 13:03:29] True
+[INF] ==> [12/11/2023 13:03:46] Application is shutting down...
+[INF] ==> [12/11/2023 13:03:49] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 13:03:49] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 13:03:49] Hosting environment: Development
+[INF] ==> [12/11/2023 13:03:49] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 13:04:02] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 13:04:02] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [12/11/2023 13:04:02] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[INF] ==> [12/11/2023 13:04:29] Request => Method: PUT, Path: /api/Account/UpdateUser, Body: {"address":"","avatar":""}
+[INF] ==> [12/11/2023 13:04:29] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[INF] ==> [12/11/2023 13:05:39] Application is shutting down...
+[INF] ==> [12/11/2023 13:05:44] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 13:05:44] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 13:05:44] Hosting environment: Development
+[INF] ==> [12/11/2023 13:05:44] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 13:05:46] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 13:05:46] Request => Method: PUT, Path: /api/Account/UpdateUser, Body: {"address":"","avatar":""}
+[INF] ==> [12/11/2023 13:05:46] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:05:48] updateUserDto: TheBoringChat.Domains.Dtos.UpdateUserDto
+[INF] ==> [12/11/2023 13:05:56] Application is shutting down...
+[INF] ==> [12/11/2023 13:06:01] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 13:06:01] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 13:06:01] Hosting environment: Development
+[INF] ==> [12/11/2023 13:06:01] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 13:06:01] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 13:06:01] Request => Method: PUT, Path: /api/Account/UpdateUser, Body: {"address":"","avatar":""}
+[INF] ==> [12/11/2023 13:06:01] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:06:02] updateUserDto: {"id":0,"username":null,"password":null,"newPassword":null,"fullName":null,"email":null,"birthday":null,"gender":null,"address":"","avatar":""}
+[INF] ==> [12/11/2023 13:06:44] Application is shutting down...
+[INF] ==> [12/11/2023 13:06:48] Now listening on: http://localhost:5276
+[INF] ==> [12/11/2023 13:06:48] Application started. Press Ctrl+C to shut down.
+[INF] ==> [12/11/2023 13:06:48] Hosting environment: Development
+[INF] ==> [12/11/2023 13:06:48] Content root path: D:\SelfTaught\TheBoringChat\BackEnd\Src
+[WRN] ==> [12/11/2023 13:06:50] Failed to determine the https port for redirect.
+[INF] ==> [12/11/2023 13:06:50] Request => Method: PUT, Path: /api/Account/UpdateUser, Body: {"address":"","avatar":""}
+[INF] ==> [12/11/2023 13:06:50] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[FTL] ==> [12/11/2023 13:06:52] updateUserDto: {"id":4,"username":null,"password":null,"newPassword":null,"fullName":null,"email":null,"birthday":null,"gender":null,"address":"","avatar":""}
+[INF] ==> [12/11/2023 13:07:04] Request => Method: GET, Path: /api/Account/GetUser, Body: null
+[INF] ==> [12/11/2023 13:07:04] Token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjA5NzQzMzE2MDMiLCJVc2VySWQiOiI0IiwibmJmIjoxNjk5NzY4ODI4LCJleHAiOjE2OTk3NzI0MjgsImlzcyI6IlRoZUJvcmluZ0FwcCIsImF1ZCI6Ik1pbmhMRCJ9.jWz0HFoj3uxGjVgInMA8KSZVCsqg8E58N6jdV35hR_1AnLcLySjlyn5BhC7gYxVEw7yeInYTzOGaTuq1PymQig
+[INF] ==> [12/11/2023 13:07:47] Application is shutting down...
