@@ -1,0 +1,39 @@
+.box-chart {
+  padding: 0 10px;
+}
+
+.header-box-chart {
+  display: flex;
+  padding: 8px 15px;
+}
+
+.header-box-chart > div {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.div-avatar {
+  border: 0;
+  display: flex;
+}
+
+.div-avatar div p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.time-active {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.div-mess {
+  text-align: start;
+}
+
+.div-mess p {
+  margin: 0;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 5px;
+}

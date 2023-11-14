@@ -8,6 +8,13 @@ import {
 } from "@ant-design/icons";
 import styles from "./css/Header.module.css";
 
+/**
+ * @param {*} props
+ *    @param Avatar
+ *    @param name
+ *    @param time
+ * @returns
+ */
 const Header = (props) => {
   return (
     <div className={styles["header-box-chart"]}>
